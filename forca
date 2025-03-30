@@ -1,0 +1,23 @@
+Console.WriteLine("Jogo da Forca");
+
+Console.Write("Qual a palavra secreta? ");
+string palavraSecreta = Console.ReadLine()!;
+
+Console.Write("Qual a letra? ");
+string letra = Console.ReadLine()!
+char letra = Char.ToLower(Console.ReadKey().KeyChar);
+
+bool letraExiste = palavraSecreta
+    .ToLower()
+    .Contains(letra);
+
+Console.WriteLine("\nA letra \"{letra}\" Existe na palavra secreta => {letraExiste}");
+
+if (existe)
+ {
+  Console.WriteLine("\nA letra \"" + letra + "\" Existe na palavra secreta => True");
+  }
+else
+ {
+  Console.WriteLine("\nA letra \"" + letra + "\" Não existe na palavra secreta => False");
+  }
