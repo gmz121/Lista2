@@ -1,0 +1,10 @@
+﻿string fraseUsuario, fraseCebolinha;
+
+Console.WriteLine("Escreva uma frase normal que será dita pelo Cebolinha: ");
+fraseUsuario = Console.ReadLine();
+
+fraseCebolinha = fraseUsuario
+    .Replace("r", "l")
+    .Replace("R", "L");
+
+Console.WriteLine(fraseCebolinha);
